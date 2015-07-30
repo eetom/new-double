@@ -215,6 +215,24 @@ aside {
     }
 }
 
+@media(max-width:768px) {
+    .carousel-control .glyphicon-chevron-right {
+        top:20%;
+    }
+
+    .carousel-control .glyphicon-chevron-left {
+        top:20%;
+    }
+
+    .navbar-default .nav > li > a.btn-nav {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 header {
     position: relative;
     width: 100%;
