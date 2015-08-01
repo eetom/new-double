@@ -307,6 +307,10 @@ header .header-content .header-content-inner .sub-text{
         text-align: center;
     }
 
+    .do-list {
+        margin-left: 0;
+    }
+
     header {
         min-height: 100%;
     }
@@ -344,8 +348,11 @@ header .header-content .header-content-inner .sub-text{
 
 .do-list {
     text-align: left;
-    margin-top: 5px;
-    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.do-list:first-child {
+    margin-top: 20px;
 }
 
 .test-text {
