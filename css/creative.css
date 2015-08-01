@@ -7,7 +7,7 @@
 html,
 body {
     width: 100%;
-    height: 100%;
+    height: 83%;
 }
 
 body {
@@ -20,7 +20,7 @@ hr {
     border-width: 3px;
 }
 
-.hr-marg-bot-50 {
+hr.hr-bot {
     margin-bottom: 50px;
 }
 
@@ -170,13 +170,13 @@ aside {
         color: #fff;
     }
 
-    .navbar-default .nav > li>a,
-    .navbar-default .nav>li>a:focus {
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {
         color: rgba(255,255,255,.7);
     }
 
     .navbar-default .nav > li > a:hover,
-    .navbar-default .nav>li>a:focus:hover {
+    .navbar-default .nav > li > a:focus:hover {
         color: #fff;
     }
 
@@ -204,24 +204,43 @@ aside {
         color: #eb3812;
     }
 
-    .navbar-default.affix .nav > li>a,
-    .navbar-default.affix .nav>li>a:focus {
+    .navbar-default.affix .nav > li > a,
+    .navbar-default.affix .nav > li > a:focus {
         color: #222;
     }
 
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
+    .navbar-default.affix .nav > li > a:hover,
+    .navbar-default.affix .nav > li > a:focus:hover {
         color: #f05f40;
+    }
+}
+
+@media(min-width:995px) {
+    .pull-back {
+        margin-left: 100px;
+    }
+
+    .pull-back-2 {
+        margin-left: -40px;
     }
 }
 
 @media(max-width:768px) {
     .carousel-control .glyphicon-chevron-right {
-        top:20%;
+        display: none;
     }
 
     .carousel-control .glyphicon-chevron-left {
-        top:20%;
+        display: none;
+    }
+
+    .pull-back > .test-text {
+        text-align: center;
+    }
+
+    .pull-back-2 > .test-text {
+        text-align: center;
+        margin: 20px 40px 0 40px;
     }
 
     .navbar-default .nav > li > a.btn-nav {
@@ -258,11 +277,11 @@ header .header-content {
     text-align: center;
 }
 
-header .header-content .header-content-inner h1 {
+header .header-content .header-content-inner h2 {
     margin-top: 0;
     margin-bottom: 0;
-/*    text-transform: uppercase;*/
     font-weight: 700;
+    font-size: 45px;
 }
 
 header .header-content .header-content-inner hr {
@@ -294,7 +313,7 @@ header .header-content .header-content-inner .sub-text{
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 60%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -331,18 +350,20 @@ header .header-content .header-content-inner .sub-text{
 
 .test-text {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 0   ;
     padding-right: 10px;
     font-size: 16px;
+    line-height: 30px;
 }
 
 .test-name {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 12px;
-    color: #777;
+    color: #fff;
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 20px;
 }
 
 .test-img {
