@@ -378,6 +378,11 @@ header .header-content .header-content-inner .sub-text{
     border-radius: 100px;
 }
 
+.center-list {
+    margin: 0 auto;
+    width: 60%;
+}
+
 .btn-after {
     margin-top: 20px;
 }
