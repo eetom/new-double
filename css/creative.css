@@ -366,7 +366,8 @@ header .header-content .header-content-inner .sub-text{
 .test-name {
     margin-top: 15px;
     font-size: 12px;
-    color: #fff;
+    font-weight: bold;
+    color: #C0C0C0;
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
