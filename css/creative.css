@@ -302,6 +302,12 @@ header .header-content .header-content-inner .sub-text{
     margin-top: 15px;
 }
 
+.sub-text{
+  text-transform: uppercase;
+  margin-top: 15px;
+  color: #808080;
+}
+
 @media(min-width:768px) {
     .test-text {
         text-align: center;
