@@ -225,6 +225,10 @@ aside {
     }
 }
 
+.carousel-inner {
+  height: 200px;
+}
+
 @media(max-width:768px) {
     .carousel-control .glyphicon-chevron-right {
         display: none;
@@ -232,6 +236,10 @@ aside {
 
     .carousel-control .glyphicon-chevron-left {
         display: none;
+    }
+
+    .carousel-inner {
+      height: 500px;
     }
 
     .pull-back > .test-text {
