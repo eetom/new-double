@@ -303,9 +303,10 @@ header .header-content .header-content-inner .sub-text{
 }
 
 .sub-text{
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-top: 15px;
   color: #808080;
+  font-size:16px;
 }
 
 @media(min-width:768px) {
