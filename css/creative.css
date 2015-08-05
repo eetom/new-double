@@ -332,6 +332,8 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 500;
 }
 
 header .header-content .header-content-inner .sub-text{
@@ -425,6 +427,25 @@ header .header-content .header-content-inner .sub-text{
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
+}
+
+.pricing {
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.pricing-box {
+    max-width: 400px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #f05f40;
+    text-align: center;
+}
+
+.pricing-box-description {
+    color: #808080;
 }
 
 @media(min-width:992px) {
