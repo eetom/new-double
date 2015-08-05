@@ -445,6 +445,7 @@ header .header-content .header-content-inner .sub-text{
 }
 
 .pricing-box-description {
+    line-height: 2.0;
     color: #808080;
 }
 
