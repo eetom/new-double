@@ -429,6 +429,25 @@ header .header-content .header-content-inner .sub-text{
     max-width: 400px;
 }
 
+.pricing {
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.pricing-box {
+    max-width: 400px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #f05f40;
+    text-align: center;
+}
+
+.pricing-box-description {
+    color: #808080;
+}
+
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
