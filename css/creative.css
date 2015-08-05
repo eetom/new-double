@@ -258,6 +258,14 @@ aside {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .section-heading {
+        font-size: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
 }
 
 header {
